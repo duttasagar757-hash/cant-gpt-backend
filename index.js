@@ -1,3 +1,8 @@
+app.get("/", (req, res) => {
+  res.send("Cant-GPT backend is running 🚀");
+});
+
+
 import express from "express";
 import cors from "cors";
 
@@ -30,3 +35,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Cant-GPT backend running (FREE MODE) on port", PORT);
 });
+
